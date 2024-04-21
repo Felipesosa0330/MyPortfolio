@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UACompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"  href="css/style.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "yVamFPofw3HFIPVuu",
+      });
+   })();
+</script>
+</head>
+
+<body>
+
+    <!--Header design-->
+    <header class="header">
+        <a href="#" class="logo">Mi Portafolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav  class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre Mi</a>
+            <a href="#services">Servicios</a>
+            <a href="#portfolio">Estudios</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola, este soy yo</h3>
+            <h1>Felipe Méndez</h1>
+            <h3>y soy <span class="multiple-text"></span></h3>
+            <p>Disfruto canalizar mi pasión hacia la creación de soluciones prácticas, utilizando mis
+                habilidades para beneficiar a los demás.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/felipemendez03" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/felipemendez03?igsh=bnB3dTd2MjIzOGdo" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/felipe-enmanuel-mendez-sosa-339b84166/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+            <a href="Documents/Cv-Felipe Mendez.pdf" class="btn" download>Download CV</a>
+
+        </div>
+
+        <div class="home-img">
+             <img src="images/miperfil.png" alt=""/>
+        </div>
+    </section>
+
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/miperfil.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mi</span></h2>
+            <h3>Algo más sobre mí</h3>
+            <p>
+                Saludos, soy un Tecnólogo en Sistemas Informáticos con experiencia como Supervisor de Apoyo Técnico
+                 en un Call Center. Aprovechando mis habilidades en desarrollo web y análisis de datos, he liderado
+                  la reestructuración de diversos procesos para hacerlos más ágiles y eficientes.
+                </p>
+                <p>
+                    Mi trayectoria en desarrollo va más allá de mis responsabilidades laborales. He llevado a cabo
+                     proyectos personalizados para particulares y empresas, incluyendo TecnocorpDev. Además,
+                     trabajé como contratista en el Banco BanReservas, donde me enfoqué en el desarrollo
+                     backend de aplicaciones móviles y sistemas de remesas. Durante este tiempo, también contribuí
+                     al diseño e implementación de nuevas funciones tanto en la aplicación móvil como en el portal
+                     empresarial.
+            </p>
+
+            <!-- <a href="#" class="btn">Leer Más</a> -->
+        </div>
+    </section>
+
+    <!--projects section-->
+    <section class="services" id="services">
+        <h2 class="heading">Mis <span>Servicios</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desarrollo Frontend/Backend</h3>
+                <p>Cuento con habilidades en HTLM, CSS, JS y C# que utilizo
+                     para lograr arquitecturas de software competitivas. </p>
+
+                 <!-- <a href="#" class="btn">Leer Más</a> -->
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-paint' ></i>
+                    <h3>Diseñador Web</h3>
+                    <p><br><br>Por medio de las tecnologías actuales como Adobe Dreamweaver, Adobe XD,
+                        WordPress y Visual Studio Code.</p>
+
+                     <!-- <a href="#" class="btn">Leer Más</a> -->
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Analista de Datos Excel</h3>
+                    <p><br>Si hablamos de Análisis de Datos necesitamos mencionar
+                        Excel y PowerBI como mínimo; en esta área cuento con más de
+                        6 años de experiencia.
+                    </p>
+
+                     <!-- <a href="#" class="btn">Leer Más</a> -->
+                </div>
+
+        </div>
+    </section>
+
+    <!--Portafolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Últimos <span>Estudios</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Ciberseguridad1.png" alt="">
+                <div class="portfolio-layer">
+                <h4>Introducción a Ciberseguridad by CISCO</h4>
+                <p>En este curso me proporcionaron las bases para comprender mejor la seguridad informática</p>
+                <!-- <a href="#"><i class='bx bx-link-external' ></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Ciberseguridad2.png" alt="">
+                <div class="portfolio-layer">
+                <h4>Hacking Ético Gamificado</h4>
+                <p>Este curso me proporcionó conocimientos de las herramientas y procesos básicos para el Hacking Ético</p>
+                <!-- <a href="#"><i class='bx bx-link-external' ></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Itla.png" alt="">
+                <div class="portfolio-layer">
+                <h4>Frontend con Angular</h4>
+                <p>Actualmente me encuentro expandiendo mis conocimientos con este framework que puede resultar bastante particular.</p>
+                <!-- <a href="#"><i class='bx bx-link-external' ></i></a> -->
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">¡Contácta<span>me!</span></h2>
+
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="nombreApellido" placeholder="Nombre y Apellido">
+                <input type="email" id="correo" placeholder="Correo Electrónico">
+                
+            </div>
+
+            <div class="input-box">
+            <input type="tel" id="telefono" placeholder="Celular">
+            <input type="text" id="asunto" placeholder="Asunto">
+            </div>
+            <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" onclick="sendMail()" value="Enviar Mensaje" class="btn">
+        </form>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+        <p>Copyrigth &copy; 2024 by Felipe Méndez | Todos los derechos reservados.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!--Java script-->
+    <script src="js/script.js"></script>
+
+
+
+    <!--Inspect lock-->
+    <!-- <script>
+        // Bloquear el clic derecho
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        // Bloquear la tecla F12
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+        }
+    </script> -->
+</body>
+
+</html>
